@@ -1,4 +1,4 @@
 export enum SupportedChainId {
-  ARBITRUM = 42161,
-  ARBITRUM_RINKEBY = 421611,
+  BSC = 56,
+  BSC_TESTNET = 97,
 }

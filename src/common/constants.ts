@@ -9,12 +9,12 @@ export const DEFAULT_NOTIFY_CONFIG: NotificationType = {
   hideProgressBar: true,
 };
 
-export const arbitrumInfuraName = "arbitrum-mainnet";
-export const arbitrumRinkebyInfuraName = "arbitrum-rinkeby";
+export const arbitrumInfuraName = "bsc-mainnet";
+export const arbitrumRinkebyInfuraName = "bsc-testnet";
 
 export const NETWORK_EXPLORER_URLS: { [key in SupportedChainId]: string } = {
-  [SupportedChainId.ARBITRUM]: `https://arbiscan.io/`,
-  [SupportedChainId.ARBITRUM_RINKEBY]: `https://testnet.arbiscan.io/`,
+  [SupportedChainId.BSC]: `https://bscscan.com/`,
+  [SupportedChainId.BSC_TESTNET]: `https://testnet.bscscan.com/`,
 };
 
 export const ALL_SUPPORTED_CHAIN_IDS: SupportedChainId[] = Object.values(

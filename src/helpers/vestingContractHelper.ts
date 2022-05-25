@@ -18,7 +18,7 @@ export const getVestingContract = () => {
   return new ethers.Contract(
     REACT_APP_CONTRACT_ADDRESS!,
     vestingAbi,
-    parseInt(REACT_APP_DEFAULT_NETWORK_ID!) === SupportedChainId.ARBITRUM
+    parseInt(REACT_APP_DEFAULT_NETWORK_ID!) === SupportedChainId.BSC_TESTNET
       ? getArbitrumProvider()
       : getArbitrumRinkebyProvider()
   );

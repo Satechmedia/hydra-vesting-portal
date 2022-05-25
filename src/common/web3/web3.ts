@@ -2,10 +2,10 @@ import { ethers } from "ethers";
 import Web3 from "web3";
 import { arbitrumInfuraName, arbitrumRinkebyInfuraName } from "../constants";
 
-const { REACT_APP_DEFAULT_NETWORK_ID, REACT_APP_ETH_INFURA_ID } = process.env;
+const { REACT_APP_DEFAULT_NETWORK_ID} = process.env;
 
 export const getProviderUrl = (networkName: string) => {
-  return `https://${networkName}.infura.io/v3/${REACT_APP_ETH_INFURA_ID!}`;
+  return `https://bsc-testnet.web3api.com/v1/NVFEZF1BHV9NDSBCIHCPNAA6GSP1XRYNDU`;
 };
 
 export const getWeb3Initialised = (networkName: string) =>

@@ -12,7 +12,7 @@ export const sizes = {
 };
 
 /**
- * Media queries to be called in styled components
+ * Media queries to be called in styled component
  */
 export const devicesUp = {
   xs: `(min-width: ${sizes.xs}px)`,

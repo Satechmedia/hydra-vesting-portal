@@ -60,9 +60,9 @@ export default function useHome() {
       });
 
       let transUrl =
-        network === SupportedChainId.ARBITRUM
-          ? `${NETWORK_EXPLORER_URLS[SupportedChainId.ARBITRUM]}/tx/${tx.hash}`
-          : `${NETWORK_EXPLORER_URLS[SupportedChainId.ARBITRUM_RINKEBY]}/tx/${
+        network === SupportedChainId.BSC
+          ? `${NETWORK_EXPLORER_URLS[SupportedChainId.BSC]}/tx/${tx.hash}`
+          : `${NETWORK_EXPLORER_URLS[SupportedChainId.BSC_TESTNET]}/tx/${
               tx.hash
             }`;
       toast.success(
