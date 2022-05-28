@@ -36,7 +36,7 @@ const Navbar = () => {
     <CustomFlexWrapper>
       <TitleContainer>
         <Logo src={hydraLogo} alt="hydra logo" />
-        <Title>{t("hydra-vesting-title")}</Title>
+        <Title>{t("CakeTools Vesting Portal")}</Title>
       </TitleContainer>
       <div>
         <ConnectWallet />
