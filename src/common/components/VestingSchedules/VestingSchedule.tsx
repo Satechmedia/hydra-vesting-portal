@@ -79,7 +79,7 @@ const YellowLine = styled.div`
  padding-bottom: 10px;
  margin-left: 300px;
  margin-right: 300px;
- border: 1px ridge #CB9A01;
+ border: 1px solid #CB9A01;
 
 `; 
 
