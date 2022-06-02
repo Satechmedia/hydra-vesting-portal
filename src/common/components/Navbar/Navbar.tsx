@@ -9,8 +9,9 @@ const CustomFlexWrapper = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin-bottom: 4.3rem;
+  margin-bottom: 3rem;
   padding: 0 20px 0 20px;
+  margin-left: 30px;
 `;
 
 const TitleContainer = styled.div`
@@ -36,7 +37,7 @@ const Navbar = () => {
     <CustomFlexWrapper>
       <TitleContainer>
         <Logo src={hydraLogo} alt="hydra logo" />
-        <Title>{t("CakeTools Vesting Portal")}</Title>
+        <Title>{t("CAKE TOOLS")}</Title>
       </TitleContainer>
       <div>
         <ConnectWallet />

@@ -61,6 +61,7 @@ const ConnectWallet = () => {
         <span className={"btn-icon"}>
           <Icon
             color={theme.colors.white}
+            border={"2px solid yellow"}
             width={"2.1rem"}
             height={"2.1rem"}
             name={"copy"}

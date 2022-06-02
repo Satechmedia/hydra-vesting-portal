@@ -34,7 +34,9 @@ export const StyledButton = styled.button<IStyledButtonProps>`
           align-items: center;
           flex: none;
         `};
-  border: 1px transparent;
+  border: 2px solid gold;
+  margin-left: 20px;
+  margin-right: 30px;
   border-radius: ${(props) =>
     props.borderRadius ? props.borderRadius : theme.borderRadius.lg};
   padding: 1.4rem 1.8rem;

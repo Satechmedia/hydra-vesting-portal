@@ -4,17 +4,25 @@ import { Label } from "../Label/Label";
 
 const Root = styled.div`
   display: flex;
+  justify-content: flex-start;
+  padding-right: 100px;
   flex-direction: column;
-  ${getVerticalGap("10px")};
+  border-radius: 10px;
+  margin-right: 110px;
+  margin-left: 110px;
+  margin-bottom: 10px;
+  ${getVerticalGap("5px")};
 `;
 
 const ColumnLabel = styled(Label)`
   opacity: 0.5;
   font-size: 20px;
+  padding: 10px;
 `;
 
 const ColumnValue = styled(Label)`
   font-size: 20px;
+  padding: 0px 10px;
 `;
 
 type Props = {

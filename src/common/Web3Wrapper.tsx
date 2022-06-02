@@ -11,7 +11,7 @@ interface Web3WrapperProps {
 const Web3Wrapper = ({ children }: Web3WrapperProps) => {
   return (
     <Web3Provider
-      networkIds={[42161]}
+      networkIds={[97]}
       onboardConfig={{
         darkMode: true,
 
